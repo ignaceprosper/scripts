@@ -3,5 +3,9 @@
 
 DNASeq = 'ATGAAC'
 
-print ( 'Sequence : ' + DNASeq )
-print ('Cagri is a world champion of programming')
+print( 'Sequence : ' + DNASeq )
+print('Cagri is a world champion of programming')
+
+SeqLength = len( DNASeq )
+
+print( SeqLength )
