@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 #
 
-DNASeq = 'ATGAAC'
+#DNASeq = 'ATGAAC'
+DNASeq = raw_input( "Please enter a DNA sequence : " )
+DNASeq = DNASeq.upper() # converts to upper case
+DNASeq = DNASeq.replace(" ","") #removes spaces
+
 
 print( 'Sequence : ' + DNASeq )
 print('Cagri is a world champion of programming')
